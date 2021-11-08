@@ -37,6 +37,7 @@ my_file.isig[0].data
 
 # %%
 ## plot the whole image as shown in other software
-my_file.isig[1:-1].plot()
+my_file.isig[1:1].plot()
 
-my_file.signal2d.plot()
+# my_file.signal2d.plot()
+# %%
